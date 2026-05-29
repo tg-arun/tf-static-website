@@ -1,0 +1,19 @@
+# Terraform state — contains real infrastructure IDs and sometimes secrets
+*.tfstate
+*.tfstate.backup
+*.tfstate.lock.info
+
+# Terraform working directory — downloaded provider plugins (100MB+)
+.terraform/
+.terraform.lock.hcl
+
+# Your real variable values — never commit these
+terraform.tfvars
+
+# Build artifacts
+.build/
+*.zip
+
+# OS files
+.DS_Store
+Thumbs.db
