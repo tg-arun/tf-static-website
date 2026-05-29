@@ -1,0 +1,3 @@
+domain_name  = "" # replace with your real domain
+project_name = ""
+aws_region   = ""

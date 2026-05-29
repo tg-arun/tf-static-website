@@ -8,7 +8,7 @@
 .terraform.lock.hcl
 
 # Your real variable values — never commit these
-#terraform.tfvars
+terraform.tfvars
 
 # Build artifacts
 .build/
